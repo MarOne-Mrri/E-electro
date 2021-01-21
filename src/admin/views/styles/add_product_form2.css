@@ -1,0 +1,51 @@
+.error {
+    margin-top: -5px;
+    color: red;
+}
+#add_product_form {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-bottom: 5px;
+}
+.field{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    margin-top: 15px;
+}
+.field input {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    font-size: 1em;
+    width: 250px;
+}
+/*.champ div {
+    position: absolute;
+    top: -16px;
+    left: 30px;
+}*/
+#add_product_form label {
+    font-size: 1.1em;
+}
+#add_product_form select {
+    width: 190px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 1em;
+}
+#buttons input {
+    width: 120px;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}

@@ -1,0 +1,61 @@
+#mother_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #677279;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+#mother_section h1 {
+    color: #1e2d7d;
+    font-size: 1.5em;
+    position: relative;
+    top: 15px;
+}
+#mother_section h1 + p {
+    color: #677279;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.error {
+    color: red;
+    margin-top: -5px;
+}
+#sign_in_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+#sign_in_form input {
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-size: 1.2em;
+    border: 1px solid #5c5c5e;
+}
+#sign_in_form input:focus {
+    border-color: #00badb;
+    border-width: 2px;
+}
+#sign_in_form input[type="submit"] {
+    background-color: #00badb;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    width: 310px;
+}
+#sign_in_form input[type="submit"]:hover {
+    background-color: #33c8e2;
+}
+#mother_section a {
+    text-decoration: none;
+    color: #00badb;
+}
+#mother_section a:hover {
+    text-decoration: underline;
+}

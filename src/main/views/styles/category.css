@@ -1,0 +1,113 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#products_section { /* contain category name + products */
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-right: none;
+    margin-top: 30px;
+}
+#category_name {
+    font-weight: bold;
+    color: #1e2d7d;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.product {
+    width: 380px;
+    height: 590px;
+    /*overflow: auto;*/
+    border: 1px solid #e1e3e4;
+    padding-bottom: 10px;
+    position: relative;
+}
+.product figure {
+    margin-top: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.product figure img {
+    position: absolute;
+    bottom: 0;
+}
+.product_info {
+    margin-top: 40px;
+    margin-left: 10px;
+    position: absolute;
+    top: 300px;
+}
+.brand {
+    color: #8a9297;
+    font-size: 1em;
+}
+.id { /* product id */
+    color: #1e2d7d;
+    font-size: 1.1em;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+.id:hover, .brand:hover {
+    color: #00badb;
+}
+.price {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+#empty_category { /* message: "no product in this category" */
+    position: absolute;
+    left: 45%;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+#search_message {
+    font-size: 1.3em;
+}
+#categories_and_brands {
+    font-size: 1.3em;
+}
+#selected_category, #selected_brand {
+    color: #1e2d7d;
+}
+#sort_by {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 200px;
+}
+#sort_by h1 {
+    font-weight: bold;
+    font-size: 1.6em;
+}
+#sort_by div {
+    margin-left: 30px;
+    font-size: 1.4em;
+}
+#mother_category, #brands h1 {
+    font-size: 1.1em;
+    margin-left: 5px;
+}
+#sub_categories, #brands ul {
+    position: relative;
+    left: -15px;
+    font-size: 0.95em;
+}
+#brands {
+    margin-top: 60px;
+}
+#categories_and_brands {
+    margin-top: 25px;
+}
+
+

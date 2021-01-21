@@ -1,0 +1,33 @@
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1e2d7d;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+header a {
+	color: white;
+}
+a {
+	text-decoration: none;
+}
+#logo {
+	color: white;
+	font-weight: bold;
+	font-size: 1.6em;
+	margin-left: 20px;
+	position: relative;
+	top: -5px;
+}
+#logo * {
+	margin-right: 5px;
+}
+#logo img {
+	position: relative;
+	top: 6px;
+}#sign_out {
+	margin-right: 20px;
+}
